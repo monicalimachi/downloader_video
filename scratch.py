@@ -4,17 +4,11 @@ from bs4 import BeautifulSoup   #Web scraping
 import re                       #Regular Expression
 import sys                      #For argument parsing
 
-#file = open('url.csv')
-
-
-
 
 if len(sys.argv) > 1:
     url = sys.argv[1]
 else:
     sys.exit("Error:Please enter the TED talk URL")
-
-url = 'https://www.ted.com/talks/sir_ken_robinson_do_schools_kill_creativity'
 
 
 r = requests.get(url)
