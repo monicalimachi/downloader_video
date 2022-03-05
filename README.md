@@ -6,6 +6,9 @@
 
 - Use a virtualenv
 - Install the requirements
+```bash
+    pip install requirements.txt
+```
 - Run script:
 ```bash
     python scratch.py video_url.mp4
